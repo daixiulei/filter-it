@@ -2,7 +2,7 @@
  * @Author: xiulei.dai
  * @Date: 2022-12-05 09:48:40
  * @LastEditors: xiulei.dai
- * @LastEditTime: 2022-12-06 21:50:22
+ * @LastEditTime: 2022-12-06 21:54:43
  * @Description:
  */
 import { defineConfig } from "vite"
@@ -13,5 +13,6 @@ export default defineConfig({
     plugins: [react()],
     build: {
         outDir: "./docs"
-    }
+    },
+    base: "/filter-it"
 })
